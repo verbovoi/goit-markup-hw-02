@@ -1,0 +1,58 @@
+/* 
+Основной цвет текста #757575
+Вторичный цвет текста #212121
+Цвет подсвечивания #2196F3
+Фон шапки #FFFFFF
+Основной фон #E5E5E5
+Вторичный фон #F5F4FA
+ */
+
+ :root {
+     --primary-text-color: #757575;
+     --secondary-text-color: #212121;
+     --background-primary: #FFFFFF;
+     --background-secondary: #F5F4FA;
+     --footer-background-site: #2F303A;
+     --hover-color: #2196F3;
+ }
+
+ body{
+     background-color: var(--background-site);
+     color: var(--primary-text-color);
+}
+
+ul {
+    list-style: none;
+}
+
+/* Header */
+
+.logo{
+    color: #000000;
+}
+
+.web-logo{
+    color: var(--hover-color);
+}
+
+.site-nav a{
+    color: var(--secondary-text-color)
+}
+
+.site-nav a:hover,
+.site-nav a:focus{
+    color: var(--hover-color);
+}
+
+.link.current{
+    color: var(--hover-color);
+}
+
+.contacts-nav a{
+    color: var(--primary-text-color);
+}
+
+.contacts-nav a:hover,
+.contacts-nav a:focus{
+    color: var(--hover-color);
+}
